@@ -1,0 +1,1 @@
+A Finder service provider for Silex Framework.
