@@ -1,0 +1,23 @@
+{
+    "name": "oaugustus/finder-silex-provider",
+    "description": "A Finder service provider for Silex.",
+    "keywords": ["directory", "finder", "silex","file"],
+    "homepage": "https://github.com/oaugustus/finder-silex-provider",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Otávio Fernandes",
+            "email": "otavio@netonsolucoes.com.br",
+            "homepage": "http://www.netonsolucoes.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "silex/silex": "~1.0",
+        "symfony/finder": ">=2.2"
+    },
+    "autoload": {
+        "psr-0": { "Mustache": "src/" }
+    }
+}
