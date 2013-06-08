@@ -18,6 +18,6 @@
         "symfony/finder": ">=2.2"
     },
     "autoload": {
-        "psr-0": { "Mustache": "src/" }
+        "psr-0": { "SilexFinder": "src/" }
     }
 }
