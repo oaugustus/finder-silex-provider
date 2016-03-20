@@ -20,7 +20,7 @@ class FinderServiceProvider implements ServiceProviderInterface
     public function register(Application $app)
     {
         // finder factory configuration
-        $app['finder'] = function() use ($app){
+        $app['finder'] = function(){
             return new Finder();
         };
 
